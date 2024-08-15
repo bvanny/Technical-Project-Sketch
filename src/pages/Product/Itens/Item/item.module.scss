@@ -1,0 +1,111 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+$balas: #ff6c83;
+$chocolates: #860b0e;
+$marshmallow: #ff9ca3;
+$amendoim: #e84c25;
+$fini: #ff4777;
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  &__image {
+    max-width: 240px;
+    @media (max-width: $desktop_xsm) {
+      width: 100%;
+    }
+    img {
+      border-radius: 8px;
+      width: 100%;
+    }
+  }
+  &__description {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+    @media (max-width: $desktop_xsm) {
+      flex-direction: row;
+      margin-top: 20px;
+      margin-left: 20px;
+      padding: 0;
+    }
+  }
+  &__title {
+    h2 {
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $dark-grey;
+      font-size: 1rem;
+      font-weight: 600;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+  }
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 700px;
+    @media (max-width: $desktop_xsm) {
+      justify-content: flex-end;
+    }
+    @media (max-width: $mobile) {
+      justify-content: flex-start;
+    }
+    > div {
+      margin: 10px;
+    }
+  }
+  &__type {
+    align-items: center;
+    border-radius: 3px;
+    display: flex;
+    font-weight: bold;
+    height: 20px;
+    justify-content: center;
+    width: 100px;
+    padding: 10px 30px;
+    &__balas {
+      background-color: $balas;
+      color: #fff;
+    }
+    &__chocolates {
+      background-color: $chocolates;
+      color: white;
+    }
+    &__marshmallow {
+      background-color: $marshmallow;
+      color: #fff;
+    }
+    &__amendoim {
+      background-color: $amendoim;
+      color: #fff;
+    }
+    &__fini {
+      background-color: $fini;
+      color: #fff;
+    }
+  }
+  &__portion,
+  &__qtdpeople,
+  &__price {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+  &__price {
+    color: $red;
+    font-size: 1.3rem;
+  }
+}

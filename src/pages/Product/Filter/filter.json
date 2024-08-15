@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Balas",
+    "id": 1
+  },
+  {
+    "label": "Chocolates",
+    "id": 2
+  },
+  {
+    "label": "Marshmallow",
+    "id": 3
+  },
+  {
+    "label": "Amendoim",
+    "id": 4
+  },
+  {
+    "label": "Fini",
+    "id": 5
+  }
+]

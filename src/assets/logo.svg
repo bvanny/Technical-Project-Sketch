@@ -1,0 +1,10 @@
+<svg width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>
+  </defs>
+  <text x="10" y="40" font-family="'Lobster', cursive" font-size="24" fill="#ff0a62">Sweets</text>
+  <text x="90" y="40" font-family="'Lobster', cursive" font-size="24" fill="#ff0a62">a</text>
+  <text x="102" y="40" font-family="'Lobster', cursive" font-size="24" fill="#9600dc">nd Chocolates</text>
+</svg>

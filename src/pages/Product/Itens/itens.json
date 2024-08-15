@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Balas de caramelo",
+    "description": "A bala de caramelo recheada mais tradicional do Brasil!! Perfeitas para lanches rápidos, para dividir com os amigos e deixar sua festa mais saborosa! Conteúdo total: 500g",
+    "photo": "/assets/itens/bala-caramelo.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 10.99,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Balas"
+    }
+  },
+  {
+    "title": "Bala Mastigável Yogurte",
+    "description": "Bala mastigável sabor de iogurte de morango. Aproximadamente 120 unidades.",
+    "photo": "/assets/itens/bala-yogurte.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 12.99,
+    "id": 2,
+    "category": {
+      "id": 1,
+      "label": "Balas"
+    }
+  },
+  {
+    "title": "Bala Azedinha",
+    "description": "Bala mastigável sabor de morango.",
+    "photo": "/assets/itens/bala-azedinha.jpg",
+    "size": 350,
+    "serving": 1,
+    "price": 6.99,
+    "id": 3,
+    "category": {
+      "id": 1,
+      "label": "Balas"
+    }
+  },
+  {
+    "title": "Milka Chocolate Strawberry Yogurt",
+    "description": "Chocolate polonês, sabor inconfundível e ingredientes de altíssima qualidade.",
+    "photo": "/assets/itens/chocolate-milka.jpg",
+    "size": 450,
+    "serving": 1,
+    "price": 15.0,
+    "id": 4,
+    "category": {
+      "id": 2,
+      "label": "Chocolates"
+    }
+  },
+  {
+    "title": "Chocolate Ao Leite Haselnuss Ferrero Rocher com Avelã",
+    "description": "Ferrero Rocher Haselnuss, uma deliciosa barra de Chocolate Ao Leite com avelã.",
+    "photo": "/assets/itens/chocolate-ferrero.jpg",
+    "size": 550,
+    "serving": 2,
+    "price": 36.0,
+    "id": 5,
+    "category": {
+      "id": 2,
+      "label": "Chocolates"
+    }
+  },
+  {
+    "title": "Chocolate Kinder Bueno",
+    "description": "Kinder Bueno é um chocolate leve, nutritivo, com recheio de leite e avelãs. Kinder Bueno é vendido em embalagens com duas barrinhas de Wafer e avelãs.",
+    "photo": "/assets/itens/chocolate-kinder.jpg",
+    "size": 850,
+    "serving": 3,
+    "price": 32.0,
+    "id": 6,
+    "category": {
+      "id": 2,
+      "label": "Chocolates"
+    }
+  },
+  {
+    "title": "Marshmallow Camping Americano",
+    "description": "Marshmallows fofinhos e deliciosos para sua diversão.",
+    "photo": "/assets/itens/marshmallow-camping.jpg",
+    "size": 350,
+    "serving": 1,
+    "price": 7.0,
+    "id": 7,
+    "category": {
+      "id": 3,
+      "label": "Marshmallow"
+    }
+  },
+  {
+    "title": "Marshmallow Torção colorido",
+    "description": "Marshmallows fofinhos e deliciosos para sua diversão.",
+    "photo": "/assets/itens/marshmallow-colorido.jpg",
+    "size": 350,
+    "serving": 1,
+    "price": 8.0,
+    "id": 8,
+    "category": {
+      "id": 3,
+      "label": "Marshmallow"
+    }
+  },
+  {
+    "title": "Amendoim Torrado S/ Pele S/ Sal",
+    "description": "Ótima fonte de calorias e proteínas, o amendoim é uma leguminosa presente nas mesas.",
+    "photo": "/assets/itens/amendoim-torrado.jpg",
+    "size": 740,
+    "serving": 3,
+    "price": 15.0,
+    "id": 9,
+    "category": {
+      "id": 4,
+      "label": "Amendoim"
+    }
+  },
+  {
+    "title": "Amendoin Japonês",
+    "description": "Ideal para aquele lanchinho rápido ou para petiscar com os amigos, o Amendoim Japonês Dori, pode ser consumido em qualquer lugar.",
+    "photo": "/assets/itens/amendoim-japones.jpg",
+    "size": 740,
+    "serving": 3,
+    "price": 15.0,
+    "id": 10,
+    "category": {
+      "id": 4,
+      "label": "Amendoim"
+    }
+  },
+  {
+    "title": "Fini Beijos de Morango",
+    "description": "Se um Beijo é muito bom, imagine um pacote inteiro de Beijos Fini! Experimente este clássico super macio, cremoso e docinho. É muito amor envolvido. Na cor rosa e branco, com sabor de morango e nata.",
+    "photo": "/assets/itens/fini-beijo.jpg",
+    "size": 740,
+    "serving": 3,
+    "price": 11.0,
+    "id": 11,
+    "category": {
+      "id": 5,
+      "label": "Fini"
+    }
+  },
+  {
+    "title": "Fini Dentaduras",
+    "description": "O clássico dos clássicos! Dentaduras Fini é amor incondicional. Não tem o que dizer, só sentir. No formato de dentadura e sabor de morango e framboesa, nas cores rosa e branca.",
+    "photo": "/assets/itens/fini-dentadura.jpg",
+    "size": 740,
+    "serving": 3,
+    "price": 10.0,
+    "id": 12,
+    "category": {
+      "id": 5,
+      "label": "Fini"
+    }
+  }
+]

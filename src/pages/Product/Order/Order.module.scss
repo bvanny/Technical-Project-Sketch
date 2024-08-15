@@ -1,0 +1,49 @@
+@import "styles/variaveis";
+
+.order {
+  align-items: center;
+  background-color: $grey;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: bold;
+  height: 30px;
+  justify-content: space-between;
+  min-width: 240px;
+  padding: 0 40px;
+  position: relative;
+  &--active {
+    background-color: #ff6c83;
+    color: white;
+  }
+  &__options {
+    display: none;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    top: 100%;
+    width: 100%;
+    &--active {
+      display: flex;
+    }
+  }
+  &__option {
+    align-items: center;
+    background-color: $grey;
+    border-top: 2px solid $light-grey;
+    box-sizing: border-box;
+    color: #161616;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: inherit;
+    &:hover,
+    &--active {
+      background-color: #ff6c83;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}

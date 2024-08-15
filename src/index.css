@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+
+* {
+  box-sizing: boder-box;
+  font-family: "Italiana", serif;
+}
+
+body {
+  background: linear-gradient(96.33deg,hsla(51,26%,85%,.65) 2.57%,hsla(27,44%,95%,.65) 47.57%,hsla(37,26%,87%,.65) 92.58%),#d5c8bc;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
